@@ -1,0 +1,40 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 50vh;
+  border-radius: 5px;
+  border: 0.5px solid rgb(113, 241, 8);
+}
+.login{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width:50%;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+button{
+  width: 60%;
+  padding: 10px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.user_Name{
+font-weight: bold;
+color: chartreuse;
+position: absolute;
+top: 15px;
+right: 20px;
+}
